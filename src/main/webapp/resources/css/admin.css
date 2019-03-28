@@ -1,0 +1,188 @@
+:link {
+    color: #ff9e2d
+}
+
+:visited {
+    color: rgba(255, 146, 52, 0)
+}
+
+:hover {
+    color: rgba(177, 27, 33, 0.64)
+}
+
+body {
+    background-size: auto;
+}
+
+.servletException {
+    background: url(/resources/error_500.jpg);
+    background-attachment: fixed;
+}
+.notfoundException {
+    background: url(/resources/error_404.jpg);
+    background-attachment: fixed;
+}
+.unForbiddenException {
+    background: url(/resources/403forbiddenerror.jpg);
+    background-attachment: fixed;
+}
+.badRequestException {
+    background: url(/resources/error400Badrequest.jpg);
+    background-attachment: fixed;
+}
+.buttonSignup {
+    /*background-color: rgba(43, 46, 49, 0.38);
+    color: rgba(255, 255, 255, 0.87);
+    padding: 0.5rem;
+    font-family: sans-serif;
+    font-size: 14pt;
+    border-radius: 6px;
+    text-align: center;
+    left: 50%;*/
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #E3E3E3;
+    border-radius: 3px;
+}
+.registration{
+    background: url(/resources/1.jpg);
+    background: fixed;
+}
+.notification{
+    color: #121eff;
+    background-color: #ff3c21;
+    left: 50%;
+}
+.bodyindex {
+    background-image: url(/resources/library_pataskala_026.jpg);
+    background-attachment: fixed;
+}
+.backgr{
+    background-color: #ff3c21;
+    background-attachment: fixed;
+}
+.link{
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background: #9a1a95; /*добавляем фон к пункту меню*/
+    color:#fff; /*меняем цвет ссылок*/
+    padding:0px 15px; /*добавляем отступ*/
+    font-family: arial; /*меняем шрифт*/
+    line-height:50px; /*ровняем меню по вертикали*/
+    display: block;
+    border-right: 1px solid #12107b; /*добавляем бордюр справа*/
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+    text-align: center;
+
+}
+
+
+div {
+    color: #121eff;
+}
+
+font {
+    color: white;
+}
+
+td {
+    color: #ff3c21
+}
+
+h2 {
+    color: lawngreen;
+}
+
+h1 {
+    color: white;
+}
+.lang {
+    color:#121eff;
+}
+.input{
+    height: 50px;
+    width: 110px;
+}
+table{
+    background: #121eff;
+    margin-top:50px;
+}
+.lib{
+    background-image: url(/resources/7-book-icon1.jpg);
+    background-attachment: fixed;
+}
+.x{
+    background-image: url(/resources/search_xp.png);
+    background-attachment: fixed;
+
+}
+.comm{
+    background-image: url(/resources/novosti-kommenty.jpg);
+    background-attachment: fixed;
+}
+.search {
+    font-family: arial;
+    padding: 50px;
+}
+.table{
+    border-collapse: collapse;
+    border: 1px solid grey;
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: arial;
+    background-color: #757b2e;
+}
+
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    margin-top:25px; /*делаем отступ сверху*/
+    background:whitesmoke; /*добавляем фон всему меню*/
+    height: 50px; /*задаем высоту*/
+    width: 30%;
+}
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background:#819A32; /*добавляем фон к пункту меню*/
+    color:#fff; /*меняем цвет ссылок*/
+    padding:0px 15px; /*добавляем отступ*/
+    font-family: arial; /*меняем шрифт*/
+    line-height:50px; /*ровняем меню по вертикали*/
+    display: block;
+    border-right: 1px solid #677B27; /*добавляем бордюр справа*/
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+    text-align: center;
+
+}
+a:hover {
+    background:#D43737;/*добавляем эффект при наведении*/
+}
+li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    position:relative; /*задаем позицию для позиционирования*/
+}
+
+/*Стили для скрытого выпадающего меню*/
+li > ul {
+    position:absolute;
+    top:25px;
+    display:none;
+    align-items: center;
+}
+
+/*Делаем скрытую часть видимой*/
+li:hover > ul {
+    display:block;
+    width:250px;  /*Задаем ширину выпадающего меню*/
+}
+li:hover > ul > li {
+    float:none; /*Убираем горизонтальное позиционирование*/
+}
+input:hover{
+    background: #E3E3E3;
+}
